@@ -46,7 +46,7 @@ def city_temp_avg(days, city_temps):
 
 HOTEL_BUDGET = 850
 
-#Calculates the 
+
 def hotel_budget(days, budget, hotel_rates):
     hotel_names = hotel_rates.keys()
     hotel_combo = list(combinations_with_replacement(hotel_names, days))
